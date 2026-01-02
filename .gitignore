@@ -1,0 +1,12 @@
+node_modules
+.pnp.cjs
+.pnp.loader.mjs
+.next
+out
+dist
+.vscode/.react
+tmp
+.DS_Store
+.env.local
+.env
+coverage

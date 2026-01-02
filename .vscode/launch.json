@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Next.js: web",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "web", "dev"],
+      "cwd": "${workspaceFolder}",
+      "port": 3000
+    },
+    {
+      "name": "Vite: studio",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "studio", "dev"],
+      "cwd": "${workspaceFolder}",
+      "port": 4173
+    }
+  ]
+}
